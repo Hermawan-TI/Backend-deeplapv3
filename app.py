@@ -37,7 +37,7 @@ app.add_middleware(
 
 def build_model():
 
-    model = smp.UnetPlusPlus(
+    model = smp.DeepLabV3Plus(
 
         encoder_name="resnet34",
 
