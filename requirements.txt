@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+torchvision
+numpy
+opencv-python-headless
+segmentation-models-pytorch
+python-multipart
+albumentations
