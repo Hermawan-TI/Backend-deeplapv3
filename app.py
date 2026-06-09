@@ -208,13 +208,7 @@ async def predict(
         pred > 0.5
     ).astype(np.uint8)
 
-    # =====================================
-    # PERSENTASE
-    # =====================================
-
-    percentage, level = (
-        calculate_pollution(mask)
-    )
+   
 
     # =====================================
     # MASK IMAGE
